@@ -2,15 +2,12 @@
   --primary-light-color: #ffffff;
   --secondary-light-color: #f5f4fa;
   --third-light-color: #757575;
-  --fourth-light-color: #ececec;
   --primary-dark-color: #000000;
   --secondary-dark-color: #2f303a;
   --primary-text-color: #212121;
-  --primary-active-color: #2196f3;
-  --secondary-active-color: #188ce8;
-  --primary-border-color: #eeeeee;
-  --hero-bg-color: #c4c4c4;
   --primary-icon-color: #afb1b8;
+  --secondary-active-color: #188ce8;
+  --primary-active-color: #2196f3;
 }
 
 body {
@@ -80,7 +77,7 @@ img {
 
 /* ---------------------LOGO--------------------- */
 .logo {
-  color: var(--primary-active-color);
+  color: #2196f3;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -120,7 +117,7 @@ img {
 .button {
   min-width: 73px;
 
-  color: var(--primary-text-color);
+  color: inherit;
   background-color: var(--secondary-light-color);
 
   font-family: inherit;
@@ -135,7 +132,7 @@ img {
 
 /* ---------------------HEADER--------------------- */
 .page-header {
-  border-bottom: 1px solid var(--fourth-light-color);
+  border-bottom: 1px solid #ececec;
 }
 
 .header-content {
@@ -185,7 +182,7 @@ img {
   align-items: center;
 }
 
-.nav .list {
+.nav-list {
   display: flex;
   margin-left: 93px;
   column-gap: 50px;
@@ -193,7 +190,7 @@ img {
 
 /* ---------------------HERO--------------------- */
 .hero {
-  background-color: var(--hero-bg-color);
+  background-color: #c4c4c4;
   text-align: center;
 }
 
@@ -431,9 +428,9 @@ img {
 .portfolio .content {
   padding: 20px 24px;
 
-  border-right: 1px solid var(--primary-border-color);
-  border-left: 1px solid var(--primary-border-color);
-  border-bottom: 1px solid var(--primary-border-color);
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio .title {
